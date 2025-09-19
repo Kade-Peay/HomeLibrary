@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Fourth Wing",
+        "author": "Rebecca Yarros",
+        "genre": ["Romantic fantasy", "Fantasy Fiction", "High fantasy", "New adult fiction"],
+        "pages": 498
+    },
+    {
+        "title": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "genre": ["Fantasy", "Adventure", "Classic"],
+        "pages": 310
+    },
+    {
+        "title": "Dune",
+        "author": "Frank Herbert",
+        "genre": ["Science Fiction", "Adventure", "Epic"],
+        "pages": 412
+    },
+    {
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "genre": ["Classic", "Romance", "Literary Fiction"],
+        "pages": 279
+    }
+]

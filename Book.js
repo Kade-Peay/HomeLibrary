@@ -1,15 +1,8 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.Book = void 0;
-var Book = /** @class */ (function () {
-    function Book(title, author, genre) {
+export class Book {
+    constructor(title = "", author = "", genre = [], pages = 0) {
         this.title = title;
         this.author = author;
         this.genre = genre;
+        this.pages = pages;
     }
-    Book.prototype.showBook = function () {
-        console.log("".concat(this.title, ", written by ").concat(this.author, ". Genre: ").concat(this.genre));
-    };
-    return Book;
-}());
-exports.Book = Book;
+}
