@@ -4,18 +4,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Book Display - Fourth Wing</title>
+    <title>Book Library - Column View</title>
     <link rel="stylesheet" href="style.css">
-    <script type="module" src="main.js"></script>
 </head>
 
 <body>
-    <div id="BookContainer">
-        <h1 id="bookTitle">Title</h1>
-        <h2 id="bookAuthor">Author</h2>
-        <p id="bookGenre">Genre</p>
-        <p id="bookPageCount">Page Count</p>
+    <div class="container">
+        <header>
+            <h1>Book Library</h1>
+            <p class="subtitle">Your complete book collection</p>
+        </header>
+
+
+        <div id="loading" class="loading">Loading books...</div>
+
+        <div id="error" class="error" style="display: none;"></div>
+
+        <div class="book-list" id="bookList">
+            <!-- Book cards will be inserted here -->
+        </div>
+
     </div>
+
+    <script src="main.js"></script>
 </body>
 
 </html>
